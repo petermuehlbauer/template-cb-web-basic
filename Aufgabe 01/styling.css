@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: grey;
+    background-color: #ebbd34;
     font-size: 120%;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4;
@@ -13,6 +13,32 @@ h2 {
 
     text-align: center;
     text-transform: uppercase;
+}
+
+dt {
+    font-size: 140%;
+    text-transform: uppercase;
+}
+
+dd {
+    font-size: 130%;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: lightgray;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+table th {
+    font-size: 130%;
 }
 
 header a {
@@ -55,6 +81,7 @@ nav a {
     flex-direction: column;
     padding: 10px;
 }
+
 .flex-main {
     display: flex;
     justify-content: center;
@@ -89,7 +116,6 @@ section {
     max-width: 33%;
     border-radius: 10px;
     border: 3px solid white;
-    justify-content: center;
 }
 
 footer {
@@ -107,4 +133,19 @@ footer a {
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
+}
+
+form {
+    background-color: lightgray;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+form div {
+    margin: 5px;
+}
+
+label,input,select {
+    font-size: 120%;
 }
